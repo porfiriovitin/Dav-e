@@ -1,0 +1,429 @@
+:root{
+    --corprincipal: #19456A;
+    --fonteprincipal: "Inter", sans-serif;
+}
+
+
+/* Navbar */
+.cordanavbar {
+    background-color: #19456A;
+  }
+
+  .barradenav{
+    font-family: var(--fonteprincipal);
+  }
+
+  .logodave{
+    margin-left: 1rem;
+  }
+
+  .itensnav{
+    margin-right:1rem;
+  }
+
+  .menuhamburguer{
+    filter: invert(1);
+  }
+  
+  /* carrossel */
+.banner1mini{
+    display: none;
+}
+
+.banner1mobile{
+    display: none;
+}
+
+.banner2mini{
+    display: none;
+}
+
+.banner2mobile{
+    display: none;
+}
+
+.banner3mini{
+    display: none;
+}
+
+.banner3mobile{
+    display: none;
+}
+
+/* Apresentação */
+.apresentacao{
+    font-family: var(--fonteprincipal);
+    font-weight: 900;
+    font-size: 38px;
+}
+
+
+.titulo{
+    margin-top: 2em;
+}
+
+.titulo2{
+    margin-top: 3em;
+}
+
+.pitch1{
+    margin-top: 1em;
+    box-shadow: 10px 5px 5px black;
+}
+
+/* Banner com beneficios */
+
+.banner{
+    background: rgb(49,135,208);
+    background: radial-gradient(circle, rgba(49,135,208,1) 0%, rgba(25,69,106,1) 100%);
+    color: white;
+    margin-top: 8em;
+    overflow: hidden;
+    
+}
+
+.subtitulo{
+    font-family: var(--fonteprincipal);
+    font-size: 64px;
+    font-weight: 900; 
+}
+
+
+.humanarm{
+    margin: 15em -0.8em 3em 0;
+}
+
+
+.roboarm{
+    margin-left: -0.8em;
+}
+
+.resultado__titulo{
+    font-family: var(--fonteprincipal);
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 1em;
+    margin-left: 0.5em;
+
+}
+
+.resultado__texto{
+    font-family: var(--fonteprincipal);
+    font-size: 32px;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.dav-e{
+    margin: 3em 1em -1.5em 6em;
+}
+
+.dav-e__celular{
+    display: none;
+}
+
+
+/* Contato */
+
+.contato{
+    font-family: var(--fonteprincipal);
+    margin-top: 4em;
+}
+
+.custom-border {
+    border: 4.8px solid #19456A;
+}
+
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    }
+
+input[type=text]{
+    padding: 2em;
+}
+
+input[type=number]{
+    padding: 2em;
+}
+
+input[type=checkbox]{
+    padding: 0.5em;
+}
+
+input[type=checkbox]:checked{
+    background-color: var(--corprincipal);
+}
+
+ .caixadecheck{
+    gap: 1em;
+} 
+
+.modal{
+    font-family: var(--fonteprincipal);
+}
+
+.seated__robot{
+    width: 11em;
+    margin-top: 1em;
+}
+
+.botaoclose{
+    background-color: var(--corprincipal);
+    color: white;
+}
+
+.submit{
+    background-color: #19456A;
+    font-family: var(--fonteprincipal);
+    margin-top: 2em;
+    padding: 10em;
+    color: white;
+}
+
+.submit:hover{
+    background-color: white;
+    border: 1px solid #19456A;
+    color: #19456A;
+}
+
+
+.texto__rodape{
+    font-family: var(--fonteprincipal); 
+}
+
+/* iphones se e demais celulares pequenos */
+@media (min-width: 320px) and (max-width: 389px) {
+    .banner1desktop{
+        display: none;
+    }
+
+    .banner1mini{
+        display: block;
+    }
+
+    .banner2desktop{
+        display: none;
+    }
+    
+    .banner2mini{
+        display: block;
+    }
+
+    .banner3desktop{
+        display: none;
+    }
+
+    .banner3mini{
+        display: block;
+    }
+
+    .roboarm{
+        width: 5em;
+    }
+
+    .subtitulo{
+        font-size: 2em;
+    }
+
+    .humanarm{
+        width: 5em;
+        margin-top: 5em;
+    }
+
+    .resultados{
+        flex-direction: column;
+    }
+
+    .resultado__titulo{
+        font-size: 3em;
+        
+    }
+
+    .resultado__texto{
+        font-size: 1.5em;
+    }
+
+    .dav-e{
+        display: none;
+    }
+
+    .dav-e__celular{
+       display: block;
+       margin: 3em auto 0 auto;
+        
+    }
+}
+
+
+
+/* Telas de celular */
+
+@media (min-width: 390px) and (max-width: 757px) {
+    
+    .banner1desktop{
+        display: none;
+    }
+    .banner1mobile{
+        display: block;
+    }
+
+    .banner2desktop{
+        display: none;
+    }
+
+    .banner2mobile{
+        display: block;
+    }
+
+    .banner3desktop{
+        display: none;
+    }
+
+    .banner3mobile{
+        display: block;
+    }
+
+    .roboarm{
+        width: 5em;
+    }
+
+    .subtitulo{
+        font-size: 2em;
+    }
+
+    .humanarm{
+        width: 5em;
+        margin-top: 5em;
+    }
+
+    .resultados{
+        flex-direction: column;
+    }
+
+    .resultado__titulo{
+        font-size: 3em;
+        
+    }
+
+    .resultado__texto{
+        font-size: 1.5em;
+    }
+
+    .dav-e{
+        display: none;
+    }
+
+    .dav-e__celular{
+       display: block;
+       margin: 3em auto 0 auto;
+        
+    }
+}
+
+
+/* telas de tablet 1 */
+
+@media (min-width: 757px) and (max-width: 1193px) {
+    .subtitulo{
+        font-size: 2.5em;
+    }
+
+    .roboarm{
+        width: 7em;
+    }
+
+    .humanarm{
+        width: 7em;
+    }
+    
+    .resultados{
+        flex-direction: column;
+    }
+
+    .resultado__titulo{
+        font-size: 3em;
+        
+    }
+
+    .resultado__texto{
+        font-size: 1.5em;
+    }
+
+    .dav-e{
+        display: none;
+    }
+
+    .dav-e__celular{
+       display: block;
+       margin: 3em auto 0 auto;
+        
+    }
+}
+
+/* Telas de tablet 2 */
+
+@media (min-width: 1194px) and (max-width: 1453px) {    
+    .roboarm{
+        width: 8em;
+    }
+
+    .subtitulo{
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .humanarm{
+        width: 8em;
+        margin-top: 5em;
+    }
+
+    .resultados{
+        flex-direction: column;
+    }
+
+    .resultado__titulo{
+        font-size: 4em;
+    }
+
+    .resultado__texto{
+        font-size: 2.5em;
+        
+    }
+
+    .dav-e{
+        display: none;
+    }
+
+    .dav-e__celular{
+       display: block;
+       margin: 3em auto 0 auto;
+        
+    }
+
+    }
+
+    /* Monitores pequenos */
+    @media (min-width: 1453px) and (max-width: 1627px) {    
+       .resultados{
+        flex-direction: column;
+       }
+       
+        .resultado__titulo{
+            font-size: 4em;
+        }
+    
+        .resultado__texto{
+            font-size: 2.5em;
+        }
+    
+        .dav-e{
+            display: block;
+            margin: 5em auto -1em auto;
+        }
+    
+        
+
+    }
+
+
