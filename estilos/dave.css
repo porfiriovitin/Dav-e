@@ -151,3 +151,38 @@ input::placeholder{
         transform: translateY(-6px);
     }
 }
+
+
+@media (min-width: 320px) and (max-width: 389px) {
+    #areadochat {
+        width: 100vh;
+        height: 100vh;
+    }
+}
+
+/* Telas de celular */
+@media (min-width: 390px) and (max-width: 757px) {
+    #areadochat {
+        width: 100vh;
+        height: 100vh;
+    }
+
+    #input-container{
+        height: 5em;
+    }
+}
+
+  
+/* telas de tablet */
+@media (min-width: 757px) and (max-width: 1193px) {
+    #areadochat {
+        width: 100vh;
+        height: 100vh;
+    }
+
+    #input-container{
+        height: 5em;
+        margin-bottom: 1em;
+    }
+}
+ 
